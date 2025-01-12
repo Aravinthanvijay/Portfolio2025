@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="portfolio">
+        <div class="container">
+            <h1>My Development Journey</h1>
+            <p>
+                Explore my development journey and learn about my skills and accomplishments.
+            </p>
+
+            <div class="btn-group">
+                <!-- Link to the skills section using an anchor -->
+                <a href="#skillsSection" class="btn">Skills</a>
+                <a href="projects.html" class="btn">Projects</a>
+            </div>
+
+            <!-- Skills Section -->
+            <div id="skillsSection" class="hidden">
+                <img src="my-photo.jpg" alt="My Photo" class="photo">
+                <h2>My Skills</h2>
+                <ul class="skills">
+                    <li>C Programming</li>
+                    <li>Python Development</li>
+                    <li>Java with JDBC</li>
+                    <li>Database Management (SQL)</li>
+                    <li>Frontend & UI Design</li>
+                </ul>
+                <!-- Back button to return to the top -->
+                <a href="#portfolio" class="btn back-btn">Back</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aravinthan V. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
